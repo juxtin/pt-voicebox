@@ -5,7 +5,7 @@ This is a writing interface intended to imitate the predictive text function on 
 #### Running the Program
 1. Open the Mac application called Terminal
 2. Enter `cd ~/Desktop` or wherever you would like to download the project (`cd` means "Change Directory" and `~/Desktop` is a shortcut to your desktop) 
-3. Enter `git clone https://github.com/jbrew/pt-voicebox.git` to download the project
+3. Enter `git clone https://github.com/juxtin/pt-voicebox.git` to download the project
 4. Enter `cd pt-voicebox` to go into the project directory
 5. Enter `sudo easy_install pip` (this will prompt you for your password)
 6. Enter `pip install --user -r requirements.txt` to download the project dependencies
