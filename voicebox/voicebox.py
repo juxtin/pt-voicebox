@@ -356,7 +356,7 @@ class Voicebox(object):
         suggestion_string = '\n'
         for i in range(len(suggestions)):
             total_score = format(sum(suggestions[i][1][1].values()), 'g')
-            info_string = "%s: %s" % (i + 1, str(suggestions[i][0]))
+            info_string = u"{0}: {1}".format(i + 1, suggestions[i][0])
             if self.more_info:
                 info_string += '\t' + str(total_score)
             suggestion_string += info_string
